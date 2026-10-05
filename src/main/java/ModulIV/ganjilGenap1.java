@@ -10,7 +10,7 @@ import java.util.Scanner;
  *
  * @author Richard
  */
-public class ganjilGenap {
+public class ganjilGenap1 {
     public static void main(String[] args) {
         int angka;
         //dekalarasi bilangan bulat yang akan dimasuukan ke variabel angka
