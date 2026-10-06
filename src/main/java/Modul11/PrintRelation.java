@@ -36,7 +36,7 @@ public class PrintRelation { //Awal dari class PrintRelation
              */
         }
         if (a == b){
-            //kondii jika a nilainya sama dengan b
+            //kondisi jika a nilainya sama dengan b
             System.out.println("A is equal to B");
             /*perintah ini untuk menampilkan bahwa 
              *a sama dengan b

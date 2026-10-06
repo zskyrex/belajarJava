@@ -51,7 +51,7 @@ public class tuaMuda {//Awal dari class tuaMuda
             //perintah ini untuk menampilkan bahwa umur nama1 seumuran dengan nama2
         } else {
             //Percabangan else yang dimana jika angka lebih umur1 lebih kecil dari umur2
-            System.out.println(nama1+" lebih mnuda dari "+nama2);
+            System.out.println(nama1+" lebih muda dari "+nama2);
             //perintah ini untuk menampilkan bahwa nama1 lebih muda dari nama2
         }
     }
