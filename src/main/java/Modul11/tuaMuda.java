@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package Modul11;
+package Modul11;//Menunjukkan File class berada di package modul 11
 import java.util.Scanner;
 //Berfungsi untuk memanggil scanneer agar user bisa menginput jawaban
 /**
@@ -42,15 +42,17 @@ public class tuaMuda {//Awal dari class tuaMuda
         //angka yang dimasukkan kemudian disimpan ke variabel umur2
         
         if (umur1 > umur2) { 
-            //Percabangan if yang dimana jika angka lebih umur1 lebih besar dari umur2
+            //Percabangan if yang dimana jika  umur1 lebih besar dari umur2
             System.out.println(nama1+" lebih tua dari "+nama2);
             //perintah ini untuk menampilkan bahwa umur nama1 lebih tua dari nama2
         } else if (umur1 == umur2) {
-            //Percabangan else if yang dimana jika angka lebih umur1 sama dengan umur2
+            //kondisi ini akan dijalankan jika umur1 sama dengan umur2
             System.out.println(nama1+" seumuran dengan "+nama2);
             //perintah ini untuk menampilkan bahwa umur nama1 seumuran dengan nama2
         } else {
-            //Percabangan else yang dimana jika angka lebih umur1 lebih kecil dari umur2
+            //kondisi ini akan dijalankan ketika 
+            //kedua kondisi yang di atas tidak memenuhi, 
+            //dan ini ditampilkan ketika umur1 lebih kecil dari umur2
             System.out.println(nama1+" lebih muda dari "+nama2);
             //perintah ini untuk menampilkan bahwa nama1 lebih muda dari nama2
         }

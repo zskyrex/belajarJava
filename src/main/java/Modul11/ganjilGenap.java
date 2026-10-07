@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package Modul11;
+package Modul11;//Menunjukkan File class berada di package modul 11
 import java.util.Scanner; 
 /*Berfungsi untuk memanggil scanneer
  *agar user bisa menginput jawaban
@@ -24,9 +24,8 @@ public class ganjilGenap { //Awal dari class ganjilGenap
         angka = ganGen.nextInt();
         //angka yang dimasukkan kemudian disimpan ke variabel angka
         
-        if ((angka >= 0) && (angka % 2 == 0)){ 
-            /*Percabangan yang dimana jika angka
-             *lebih besar sama dengan 0 AND
+        if (angka % 2 == 0){ 
+            /*Percabangan yang dimana
              *angka di moduluskan apakah
              *hasil baginya sama dengan 0
              *ini digunakan untuk mencari

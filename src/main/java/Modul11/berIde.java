@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package Modul11;
+package Modul11;//Menunjukkan File class berada di package modul 11
 import java.util.Scanner;
 //Berfungsi untuk memanggil scanneer agar user bisa menginput jawaban
 /**
@@ -12,7 +12,7 @@ import java.util.Scanner;
 public class berIde { //Awal dari class berIde
     public static void main(String[] args) {
         int tb,bb,beratIdeal;
-        //deklarasi bilangan bulat yang akan di masukkan ke variabel tb,bb,dan beratIdeal
+        //deklarasi bilangan bulat yang akan di masukkan ke variabel tb(tinggi badan,bb(beratbadan),dan beratIdeal
     
         Scanner bBi = new Scanner(System.in);
         //untuk membaca input dari pengguna
@@ -38,14 +38,14 @@ public class berIde { //Awal dari class berIde
              */
             System.out.println("Berat badan anda ideal!");
             //perintah ini akan menampilkan bahwa berat badan pengguna ideal
-        } else if ( beratIdeal > 90){
-            //percabangan else if yang dimana jika variabel berat ideal lebih besar dari 90 maka,
+        } else if ( beratIdeal < 90){
+            //percabangan else if yang dimana jika variabel berat ideal lebih kecil dari 90 maka,
             System.out.println("Terlalu kurus!");
             //perintah ini akan menampilkan bahwa berat badan pengguna terlalu kurus
-        } else if (beratIdeal < 110){
-            //percabangan else if yang dimana jika variabel berat ideal lebih kecil dari 110 maka,
+        } else if (beratIdeal > 110){
+            //percabangan else if yang dimana jika variabel berat ideal lebih besar dari 110 maka,
             System.out.println("Telalu gemuk!");
-            //perintah ini adakan menampilkan bahwa berat badan pengguna terlalku gemuk
+            //perintah ini adakan menampilkan bahwa berat badan pengguna terlalu gemuk
         }
     }
 }//Akhir dari class berIde
