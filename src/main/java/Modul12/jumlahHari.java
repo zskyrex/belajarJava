@@ -3,7 +3,6 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
 package Modul12;
-import java.util.Locale;
 import java.util.Scanner;
 
 /**
