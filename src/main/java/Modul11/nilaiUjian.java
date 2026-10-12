@@ -36,7 +36,6 @@ public class nilaiUjian { //Awal dari class nilaiUjian
         //rumus untuk mencari total nilai dari ketiga ujian
         //dengan memberi bobot 30% untuk uts 1 dan uts 2, dan 40% untuk uas
         //baru dijumlahkan 
-        
         System.out.println("");
         //sebagai pemisah antara yang di atas dan dibawah (whitespace)
         
