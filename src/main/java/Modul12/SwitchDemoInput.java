@@ -19,7 +19,7 @@ public class SwitchDemoInput {//Awal dari class SwitchDemoInput
         
         Scanner bulanString = new Scanner(System.in);
         //untuk membaca input dari pengguna
-        System.out.print("Msukkan bulan dalam angka : ");
+        System.out.print("Masukkan bulan dalam angka : ");
         //untuk meminta penmgguna memasukkan bulan dalam angka
         month = bulanString.nextInt();
         //jawaban yang telah diketik akan disimpan di variabel month

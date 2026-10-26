@@ -69,8 +69,8 @@ public class bonusKaryawan { //Awal dari class bonusKaryawan
                            bonusGaji = gajiPokok * 0.3;
                        } else if ((masaKerja >= 11) && (masaKerja <= 20)){
                             bonusGaji =  gajiPokok * 0.2;
-                       } else if ((masaKerja >= 21) && (masaKerja <= 30)){
-                            bonusGaji =  gajiPokok * 0.1;
+                       } else if ((masaKerja >= 21) && (masaKerja <= 30)){                                            
+                            bonusGaji =  gajiPokok * 0.1;                                                            
                        }
                        break;
            /* jika nilai "golongan" adalah "I", maka akan masuk ke kondisi percabangan
@@ -90,7 +90,7 @@ public class bonusKaryawan { //Awal dari class bonusKaryawan
              * oleh pengguna yang disimpan di variabel masaKerja,lalu hentikan switch
              */
             default : System.out.println("Golongan tidak ditemukan!");
-                      break;
+                      return;
             // jika tidak ada nilai yang cocok,maka akan menampilkan "Golongan tidak ditemukan !" lalu hentikan switch
         }
         totalBonus = gajiPokok - bonusGaji;
